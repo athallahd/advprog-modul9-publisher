@@ -16,3 +16,7 @@ URL tersebut sama karena publisher maupun subscriber **terhubung ke broker yang 
 
 ## Event Sending
 ![sending event](images/sendingevent.png)
+
+## Monitor Spikes on Chart
+![Spike Chart](images/spikingchart.png)
+Dashboard menunjukkan grafik message rates dengan beberapa puncak (spike) aktivitas dalam interval waktu 17:22:40 hingga 17:23:30, dengan puncak tertinggi sekitar 6.0/s.
