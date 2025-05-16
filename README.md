@@ -13,3 +13,6 @@ URL tersebut sama karena publisher maupun subscriber **terhubung ke broker yang 
 
 ## Message Broker: RabbitMQ
 ![rabbitmq](images/rabbitmqpublisher.png)
+
+## Event Sending
+![sending event](images/sendingevent.png)
