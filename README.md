@@ -16,6 +16,7 @@ URL tersebut sama karena publisher maupun subscriber **terhubung ke broker yang 
 
 ## Event Sending
 ![sending event](images/sendingevent.png)
+Gambar menunjukkan sebuah proyek messaging dengan arsitektur publisher-subscriber menggunakan RabbitMQ sebagai message broker. Di sisi kiri terlihat program publisher (dalam Rust) yang sedang berjalan dan mengirimkan data ke message broker dengan perintah `cargo run`. Di sisi kanan terlihat program subscriber yang menerima pesan-pesan tersebut, menampilkan 5 `UserCreatedEventMessage` dengan ID dan nama pengguna. Terminal menampilkan output eksekusi di kedua sisi, menunjukkan komunikasi asinkron yang berhasil terjadi antara dua aplikasi melalui protokol `AMQP (Advanced Message Queuing Protocol)`.
 
 ## Monitor Spikes on Chart
 ![Spike Chart](images/spikingchart.png)
